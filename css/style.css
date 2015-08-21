@@ -5,7 +5,7 @@ body {
     line-height:20px;
     color:#222;
     font-weight:400;
-    background-color:#ccc
+    background-color:#FFF;
 }
 .small-text {
     font-size:12px
@@ -1548,7 +1548,6 @@ ul.link-list {
     color:inherit
 }
 .entry .entry-top .entry-meta {
-    overflow:hidden;
     height:13px;
     line-height:13px;
     text-transform:none;
@@ -1571,14 +1570,12 @@ ul.link-list {
     color:#716b71
 }
 .entry .entry-media {
-    margin:-40px;
     margin-bottom:30px;
-    overflow:hidden
 }
 .entry .entry-media img, .entry .entry-media iframe {
     border-top-right-radius:2px;
     border-top-left-radius:2px;
-    overflow:hidden
+    overflow:hidden;
 }
 .entry .entry-media img {
     -webkit-transform:scale(1, 1);
@@ -2477,7 +2474,7 @@ ul.portfolio-list li span:first-child {
     padding-top:280px
 }
 #header.transparent + .section.huge-padding {
-    padding-top:350px
+    padding-top:450px
 }
 #header.sticky {
     line-height:100px;
@@ -3054,4 +3051,8 @@ html[xmlns] .flexslider .slides {
     .section.full .container {
         margin:0
     }
+}
+
+#contato h1.lighter{
+    margin-bottom: 100px; 
 }
