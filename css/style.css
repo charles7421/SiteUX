@@ -2657,6 +2657,7 @@ ul.portfolio-list li span:first-child {
 }
 #header .menu-toggle {
     position:absolute;
+    margin-top: 35px;
     top:0;
     right:15px;
     line-height:90px;
@@ -3055,4 +3056,11 @@ html[xmlns] .flexslider .slides {
 
 #contato h1.lighter{
     margin-bottom: 100px; 
+}
+
+.logoParceiros img {
+    min-width: 100px;
+    max-height: 120px;
+    max-width:  120px;
+    opacity: 0.5;
 }

@@ -7,16 +7,18 @@
         <meta name="robots" content="index, follow">
 
         <meta name="description" content="Fábrica de Softwares e projetos focada em User Experience(UX).">
-        <meta name="keywords" content="Desenvolvimento de softwares sob demanda, fabrica de softwares, User Experience, Experiência do Usuário, UX, sites criativos, necessidades, softwares simples, especifico, Patos de Minas, Minas Gerais, startup">
+        <meta name="keywords" content="Desenvolvimento de softwares sob demanda, fabrica de softwares, User Experience, Experiência do Usuário, UX Patos de Minas, necessidades,
+              softwares simples, especifico, Patos de Minas, Minas Gerais, startup">
         <meta name="author" content="UX Soluções em TI">
         <link rel="canonical" href="http://uxsolucoes.com.br/" />
         <meta name="reply-to" content="contato@uxsolucoes.com.br">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/dataurl.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
         <link href="../css/themify-icons.css" rel="stylesheet" type="text/css">
-        <link href="../css/style.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
         <link rel="icon" href="../imagens/favicon.ico" type="image/x-icon">
         <!-- 
@@ -53,9 +55,6 @@
                         <div class="menu-toggle">
                             <i class="ti-menu"></i>
                         </div>
-                        <div class="header-line">
-                            <div class="line"></div> 
-                        </div> 
                     </div>
                 </div> 
             </header> 
@@ -111,7 +110,7 @@
                                     <span class="space"></span>
                                     <p>Em um mundo ideal, os usuários procuram através do software inteiro para encontrar a funcionalidade que estão procurando, mas sabemos que essa não é a realidade. 
                                         Para contornar essa situação, geralmente recorrem a suporte técnico, que são demorados, tediosos e nem sempre resolvem o problema.
-                                    Em nossos softwares, isso é praticamente inexistente, devido a forma intuitíva de uso.</p>
+                                        Em nossos softwares, isso é praticamente inexistente, devido a forma intuitíva de uso.</p>
                                     <span class="space"></span>
                                 </div> 
                             </div>
@@ -123,7 +122,7 @@
                                     <h2 class="lighter">Sua empresa é feita pelas pessoas que trabalham nela.</h2>
                                     <span class="space"></span>
                                     <p>Uma empresa não tem sucesso por causa do produto que vende, de um serviço que presta ou pela sua cultura. A empresa é um grupo de pessoas com uma proposta e visão em comum.
-                                    Pensando neles, conseguimos melhores resultados.</p>
+                                        Pensando neles, conseguimos melhores resultados.</p>
                                     <span class="space"></span>
                                 </div> 
                             </div>
@@ -242,7 +241,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="lighter text-center">Entre em contato!</h1>
-                            <form data-toggle="validator" id="contatoForm" name="contatoForm" action="include/sendemail.php" method="post" role="form" novalidate="true">
+                            <form data-toggle="validator" id="contatoForm" name="contatoForm" action="enviarEmail.php" method="post" novalidate="true">
                                 <div class="form-process"></div>
                                 <div class="col-md-4 form-group">
                                     <label for="nome">Seu nome <small>*</small></label>
@@ -273,10 +272,6 @@
                                     <input type="text" id="check" name="check" value="" class="form-control">
                                 </div>
                                 <div class="col-md-12">
-                                    <p id="resultado"></p>
-                                    <br>
-                                </div> 
-                                <div class="col-md-12">
                                     <button class="btn btn-punch btn-xs btn-black disabled" type="submit" 
                                             id="enviar" name="enviar" value="submit" style="pointer-events: all;">Enviar</button>
                                 </div>
@@ -287,60 +282,61 @@
                 </div> 
             </section>
             <section class="section background-wrapper with-overlay white-overlay active-section">
-                <div class="background-image parallax-background" data-stellar-background-ratio="1" style="background: url(http://demo.geniuspro.net/material/builder/elements/demo/hero/big3.jpg) 0% 0%;"></div>
+                <div class="background-image parallax-background" data-stellar-background-ratio="1" 
+                     style="background: url(../imagens/design.jpg) 0% 0%;"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-                            <h3 class="small-text uppercase-text strong-text">About Us</h3>
-                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                            <h3 class="small-text uppercase-text strong-text">UX Soluções em TI</h3>
+                            <p>Criamos softwares específicos com design focado no usuário, de acordo com as regras de negócios da sua empresa.</p>
                         </div> 
                         <div class="col-md-2 col-md-offset-3">
                             <h3 class="small-text uppercase-text strong-text">Links</h3>
                             <ul class="link-list">
-                                <li><a href="#" title="">About Us</a></li>
-                                <li><a href="#" title="">What We Do</a></li>
-                                <li><a href="#" title="">What We Think</a></li>
-                                <li><a href="#" title="">Career</a></li>
+                                <li><a href="#quemSomos" title="">A Empresa</a></li>
+                                <li><a href="#PorqueNosEscolher" title="">Por que nos escolher?</a></li>
+                                <li><a href="#Cases" title="">Últimos Trabalhos</a></li>
+                                <li><a href="#contato" title="">Contato</a></li>
                             </ul>
                         </div> 
                         <div class="col-md-2">
-                            <h3 class="small-text uppercase-text strong-text">Services</h3>
+                            <h3 class="small-text uppercase-text strong-text">Serviços</h3>
                             <ul class="link-list">
-                                <li><a href="#" title="">Web Design</a></li>
-                                <li><a href="#" title="">WordPress Dev</a></li>
-                                <li><a href="#" title="">Copywriting</a></li>
-                                <li><a href="#" title="">Online Marketing</a></li>
+                                <li><a href="#" title="Nossa fábrica de Softwares.">Fábrica de Softwares</a></li>
+                                <li><a href="../Sites" title="Sites criativos.">Sites</a></li>
+                                <li><a href="../Aplicativos" title="Era Mobile">Aplicativos</a></li>
                             </ul>
                         </div> 
                         <div class="col-md-2">
-                            <h3 class="small-text uppercase-text strong-text">Follow</h3>
+                            <h3 class="small-text uppercase-text strong-text">Redes Sociais</h3>
                             <ul class="link-list">
-                                <li><a href="#" title="">Facebook</a></li>
-                                <li><a href="#" title="">Twitter</a></li>
-                                <li><a href="#" title="">Instagram</a></li>
-                                <li><a href="#" title="">GooglePlus</a></li>
+                                <li><a href="https://www.facebook.com/UXSolucoesEmTI" title="Acompanhe nossa página no Facebook.">Facebook</a></li>
+                                <li><a href="https://twitter.com/UXSolucoesEmTI" title="Acompanhe nossa página no Twitter">Twitter</a></li>
+                                <li><a href="http://plus.google.com/u/0/114481098707663497414" title="Acompanhe nossa página no Google+">Google+</a></li>
                             </ul>
                         </div> 
                         <div class="col-md-12">
                             <div class="divider"></div>
                         </div> 
-                        <div class="col-md-6">
-                            <ul class="list-inline">
-                                <li><a href="#" title="" class="uppercase-text strong-text">About</a></li>
-                                <li><a href="#" title="" class="uppercase-text strong-text">Blog</a></li>
-                                <li><a href="#" title="" class="uppercase-text strong-text">Help</a></li>
-                                <li><a href="#" title="" class="uppercase-text strong-text">Terms</a></li>
-                                <li><a href="#" title="" class="uppercase-text strong-text">Privacy</a></li>
-                            </ul>
-                        </div> 
-                        <div class="col-md-6 text-right">
-                            <p class="uppercase-text letter-spacing">© 2015 - <strong>Material</strong>. by GeniusPro.</p>
-                        </div> 
+                        <div class="logoParceiros hidden-xs">
+                            <div class="col-md-4 text-center">
+                                <a href="http://www2.unipam.edu.br/incubadora-de-empresas" target="_blank"><img src="../imagens/IEP.png" class=""></a>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <a href="http://www.atlastecnologicodemg.com.br/pt-br/pesquisa/1/0/0/YR9bWtycIQvH3lyrNQAF5Wov0P4PW/KK" target="_blank"><img src="../imagens/Software_Minas.png" class=""></a>
+                            </div>
+
+                            <div class="col-md-4 text-center">
+                                <a href="https://www.microsoft.com/bizspark/startup/profile.aspx?Startup=477340" target="_blank"><img src="../imagens/BizSpark_StartUp.jpg" class=""></a>
+                            </div>
+
+                        </div>
                     </div> 
                 </div> 
             </section>
         </div> 
         <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/parallax.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="../js/jquery.flexslider-min.js"></script>
         <script src="../js/waypoints.min.js"></script>
@@ -351,6 +347,7 @@
         <script src="../js/validator.min.js"></script>
         <script src="../js/jquery.form.min.js"></script>
         <script src="../js/isotope.pkgd.min.js"></script>
-        <script src="../js/scripts.js"></script>
+        <script src="../js/scripts.js"></script>        
+        <script src="../js/pace.min.js"></script>
     </body>
 </html>
