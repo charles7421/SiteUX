@@ -73,9 +73,10 @@ body {
 #menu .box-conteudo {
     overflow:hidden;
     position:relative;
-    padding:30px;
+    padding: 30px;
     border-bottom-right-radius:2px;
-    border-bottom-left-radius:2px
+    border-bottom-left-radius:2px;
+    height: 200px;
 }
 
 #menu .box-conteudo .icone {
